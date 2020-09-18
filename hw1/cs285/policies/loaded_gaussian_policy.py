@@ -7,7 +7,7 @@ import torch
 import pickle
 
 
-def create_linear_layer(W, b) -> nn.Linear:
+def create_linear_layer(W, b):
     out_features, in_features = W.shape
     linear_layer = nn.Linear(
         in_features,
